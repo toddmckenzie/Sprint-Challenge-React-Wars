@@ -1,16 +1,17 @@
 import React from 'react';
-
+import './StarWars.css';
 
 
 
 const StarWarsGuy = props => {
-  console.log(props.item)
   return (
-    <div className="card">
-      <p>{props.item.name}</p>
-      <p>{props.item.height}</p>
-    </div>
-  )
+      <div className="card">
+        <h2>{props.item.name}</h2>
+        <p>Birthday: {props.item.birth_year}</p>
+        <p>Height: {props.item.height}</p>
+        <p>Mass: {props.item.mass}</p>
+      </div>
+    )
 }
 
 

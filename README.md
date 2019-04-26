@@ -26,12 +26,20 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
 
+  ReactJs is a user interface library.  It uses components to build out UI.  It was developed to manage state.  Facebook developed it in order to deal with data and state and to have the ability to be scalable and reuseable.
+
 - [ ] What does it mean to _think_ in react?
+
+  React makes you think of the components as you build them.  The mind frame of taking components and having them be resusable and scalable and passing props from top to bottom.  The docs say 1.Break UI into comp hierarchy 2. build a static version in react 3. Identify the minimal rep of the UI state. 4. Identify where state should live 5. Add inverse data flow.
+
 
 - [ ] Describe state.
 
+  State is the data that is rendered to the screen or the data that we can change using setState function which would render a new array if we were dealing with arrays in state.  
+
 - [ ] Describe props.
 
+  props stands for propery.  Basically its the data that we pass as props form one component to antoher.  Props are immutable.  
 ## Project Set Up
 
 Follow these steps to set up and work on your project:

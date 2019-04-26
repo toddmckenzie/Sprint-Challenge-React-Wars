@@ -3,7 +3,7 @@ import StarWarsGuy from './StarWarsGuy';
 
 const StarWarsComponent = props => {
   return (
-    <div>{props.data.map(item =>
+    <div className="flex">{props.data.map(item =>
       <StarWarsGuy item={item} key={Math.random()*1000000} />
     )}</div>
   )
